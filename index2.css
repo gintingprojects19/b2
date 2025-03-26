@@ -175,7 +175,7 @@ font-family: "Albert Sans", sans-serif;
         width: 50%;
     }
     #list-menu{
-        height: 700px;
+        height: 800px;
         overflow: scroll;
     }
     #tbl-baca{
@@ -208,5 +208,13 @@ font-family: "Albert Sans", sans-serif;
     }
     #tbl-baca{
         background-color: lightskyblue;
+    }
+}
+@media only screen and (max-width: 400px){
+    #nama{
+        font-size: 12.5pt;
+    }
+    #tag-line{
+        font-size: 10pt;
     }
 }

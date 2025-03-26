@@ -162,6 +162,7 @@ font-family: "Albert Sans", sans-serif;
 @media only screen and (max-width: 600px){
     #rows-menu{
         display: block;
+        height:1000px;
     }
     .menu-item{
         width: 100%;
@@ -174,7 +175,7 @@ font-family: "Albert Sans", sans-serif;
         width: 50%;
     }
     #list-menu{
-        height: 950px;
+        height: 980px;
         overflow: scroll;
     }
     #tbl-baca{

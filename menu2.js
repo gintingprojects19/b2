@@ -1,6 +1,8 @@
 const menu = document.getElementById("menu");
 const openMenu = document.getElementById("list-menu");
 menu.textContent="Menu";
+const ms = document.getElementById("ms");
+const openMs = document.getElementById("open-ms");
 menu.addEventListener("click", event =>{
 
     if(openMenu.style.display==="none"){
